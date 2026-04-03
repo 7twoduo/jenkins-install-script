@@ -134,8 +134,10 @@ jenkins-admin/
 ```
 ## ⚡ Quick visual
 
-<img width="552" height="1120" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/ac686afd-ed99-4049-abe3-17aa146c93e6" />
-
+```markdown
+flowchart LR
+    A[Run Script] --> B[Build Image] --> C[Install Plugins + Tools] --> D[Create Admin] --> E[Start Container] --> F[Port 8080]
+```
 ---
 
 ## 🌌 Access Matrix
