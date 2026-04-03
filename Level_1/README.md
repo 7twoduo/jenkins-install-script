@@ -132,8 +132,9 @@ jenkins-admin/
 └── init.groovy.d/
     └── 01-create-admin.groovy
 ```
-⚡ Quick visual
+## ⚡ Quick visual
 
+<img width="552" height="1120" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/ac686afd-ed99-4049-abe3-17aa146c93e6" />
 
 ---
 
