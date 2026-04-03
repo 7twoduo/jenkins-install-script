@@ -30,7 +30,7 @@
 
 ## 🧭 Choose your path
 
-```markdown
+```mermaid
 flowchart LR
     A[Start] --> B{Where do you want Jenkins?}
     B --> C[Local Machine]
@@ -134,7 +134,7 @@ jenkins-admin/
 ```
 ## ⚡ Quick visual
 
-```markdown
+```mermaid
 flowchart LR
     A[Run Script] --> B[Build Image] --> C[Install Plugins + Tools] --> D[Create Admin] --> E[Start Container] --> F[Port 8080]
 ```
