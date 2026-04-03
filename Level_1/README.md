@@ -30,7 +30,7 @@
 
 ## 🧭 Choose your path
 
-```mermaid
+```markdown
 flowchart LR
     A[Start] --> B{Where do you want Jenkins?}
     B --> C[Local Machine]
@@ -45,7 +45,7 @@ flowchart LR
 
 [!TIP]
 
-```mermaid
+```markdown
 Use this option if you want Jenkins running on your own laptop or desktop.
 
 What happens
@@ -77,7 +77,7 @@ docker logs -f jenkins-admin
 ## ☁️ AWS EC2 Setup
 
 [!TIP]
-```mermaid
+```markdown
 Use this option if you want Jenkins running in the cloud on an EC2 instance.
 
 What happens
@@ -117,7 +117,7 @@ docker logs -f jenkins-admin
 
 ```
 ## 🔐 Optional admin credentials
-```mermaid
+```markdown
 export JENKINS_ADMIN_ID=admin
 export JENKINS_ADMIN_PASSWORD='YourStrongPasswordHere'
 
@@ -125,7 +125,7 @@ Run the script after setting them.
 ```
 
 ## 🗂️ Files created by the script
-```mermaid
+```markdown
 jenkins-admin/
 ├── Dockerfile
 ├── plugins.txt
@@ -164,11 +164,11 @@ jenkins-admin/
 
 
 # 🌍 Cloudflare Hosting
-```mermaid
+```markdown
 Use Cloudflare when you want to expose Jenkins without relying only on localhost or raw EC2 public access.
 ```
 ## 🖥️ Local Cloudflare Hosting
-```mermaid
+```markdown
 Temporary public URL from your local machine.
 
 Install cloudflared
@@ -185,7 +185,7 @@ In case that doesn't work use this other one and set it to your drive.
 
 ```
 ## ☁️ EC2 Cloudflare Hosting
-```mermaid
+```markdown
 Temporary public URL from your EC2 instance.
 
 Install cloudflared
@@ -226,7 +226,7 @@ ingress:
 cloudflared tunnel run my-tunnel
 
 ## 🧠 Quick Notes
-```mermaid
+```markdown
 
 Local Docker is best for testing Jenkins on your machine.
 
