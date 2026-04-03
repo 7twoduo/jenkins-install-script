@@ -250,7 +250,7 @@ http://localhost:8080
 
 # Beware, don't close the console with the cloudflare tunnel, it shuts down the tunnel. 
 
-# TODOS: Ask AI if you have any questions, it will give you a 90%+ accurate answer, most like 
+# TODOS: Ask AI if you have any questions, it will give you a 90%+ accurate answer, most likely 
 
 
 
